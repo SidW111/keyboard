@@ -542,14 +542,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+            <div className=" rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200 ">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
                   <span>C</span>
                 </div>
               </div>
             </div>
-            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+            <div className=" rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
                   <span>V</span>
@@ -671,7 +671,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200 ">
               <div className="flex rounded-md bg-black h-16 w-20">
                 <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
                   <div className="flex justify-end items-end">
@@ -727,29 +727,29 @@ export default function Home() {
             </div>
             <div>
               <div className="flex flex-col items-center justify-center gap-1.5">
-                      <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
-                        <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
-                          <FaCaretUp size={21} />
-                        </div>
-                      </div>
-                      <div className="flex gap-1.5 items-center justify-center">
-                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
-                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
-                            <FaCaretLeft size={21} />
-                          </div>
-                        </div>
-                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
-                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
-                            <FaCaretDown size={21} />
-                          </div>
-                        </div>
-                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
-                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
-                            <FaCaretRight size={21} />
-                          </div>
-                        </div>
-                      </div>
+                <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                  <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                    <FaCaretUp size={21} />
+                  </div>
+                </div>
+                <div className="flex gap-1.5 items-center justify-center">
+                  <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                    <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                      <FaCaretLeft size={21} />
                     </div>
+                  </div>
+                  <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                    <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                      <FaCaretDown size={21} />
+                    </div>
+                  </div>
+                  <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                    <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                      <FaCaretRight size={21} />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           {/* end */}
