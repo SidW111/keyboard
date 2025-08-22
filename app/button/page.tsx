@@ -10,9 +10,6 @@ import {
   FaCaretLeft,
 } from "react-icons/fa";
 export default function Button() {
-  setTimeout(()=>{
-    
-  })
   return (
     <div className="bg-black text-white h-screen flex items-center justify-center w-full gap-2">
       <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">

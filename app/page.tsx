@@ -34,6 +34,7 @@ export default function Home() {
           {/* 6 divs of keyboard */}
 
           {/* 1st line */}
+          
           <div className="flex mb-2 gap-1 justify-center items-center">
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all  duration-200">
               <div className="flex justify-start items-end rounded-md bg-black h-16 w-30 pb-2 pl-3">
