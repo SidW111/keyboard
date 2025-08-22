@@ -3,6 +3,12 @@ import { MdKeyboardOptionKey } from "react-icons/md";
 import { CiGlobe } from "react-icons/ci";
 import { MdOutlineKeyboardControlKey } from "react-icons/md";
 import { MdOutlineKeyboardCommandKey } from "react-icons/md";
+import {
+  FaCaretUp,
+  FaCaretDown,
+  FaCaretRight,
+  FaCaretLeft,
+} from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -11,7 +17,7 @@ export default function Home() {
       {/* center container */}
       <div className="flex items-center justify-center h-screen">
         {/* main div */}
-        <div className="text-white w-fit h-fit gap-1 max-w-full shadow-sm shadow-white/50 rounded-md p-2">
+        <div className="text-white w-fit h-fit gap-1 bg-white/20 max-w-full shadow-sm shadow-white/80 rounded-md p-2">
           {/* 6 divs of keyboard */}
 
           {/* 1st line */}
@@ -616,7 +622,7 @@ export default function Home() {
             </div>
           </div>
           {/* 6th line */}
-          <div className="flex mb-2 gap-1 justify-center items-center">
+          <div className="flex  gap-1 justify-center items-center">
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1.5">
@@ -719,7 +725,32 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div>doebsou</div>
+            <div>
+              <div className="flex flex-col items-center justify-center gap-1.5">
+                      <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                        <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                          <FaCaretUp size={21} />
+                        </div>
+                      </div>
+                      <div className="flex gap-1.5 items-center justify-center">
+                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                            <FaCaretLeft size={21} />
+                          </div>
+                        </div>
+                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                            <FaCaretDown size={21} />
+                          </div>
+                        </div>
+                        <div className="rounded-md outline bg-white/3 shadow-md shadow-white/50 p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none transition-all duration-200">
+                          <div className="w-16 h-7 rounded-md bg-black flex items-center justify-center">
+                            <FaCaretRight size={21} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </div>
           </div>
           {/* end */}
         </div>
