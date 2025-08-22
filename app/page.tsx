@@ -12,7 +12,6 @@ import { MdOutlineWindow } from "react-icons/md";
 import { TbBrightnessUp } from "react-icons/tb";
 import { TbBrightnessUpFilled } from "react-icons/tb";
 
-
 import { CiGlobe } from "react-icons/ci";
 import { MdOutlineKeyboardControlKey } from "react-icons/md";
 import { MdOutlineKeyboardCommandKey } from "react-icons/md";
@@ -30,7 +29,7 @@ export default function Home() {
       {/* center container */}
       <div className="flex items-center justify-center h-screen">
         {/* main div */}
-        <div className="text-white w-fit h-fit gap-1 bg-white/5 max-w-full shadow-sm shadow-white/80 rounded-md p-2">
+        <div className="text-white w-fit h-fit gap-1 bg-white/30 max-w-full shadow-sm shadow-white/80 rounded-md p-2">
           {/* 6 divs of keyboard */}
 
           {/* 1st line */}
