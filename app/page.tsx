@@ -1,4 +1,3 @@
-import { CiBrightnessDown, CiBrightnessUp } from "react-icons/ci";
 import { IoSearch } from "react-icons/io5";
 import { TbMicrophone } from "react-icons/tb";
 import { IoMoonOutline } from "react-icons/io5";
