@@ -11,7 +11,7 @@ export default function Home() {
       {/* center container */}
       <div className="flex items-center justify-center h-screen">
         {/* main div */}
-        <div className="text-white w-fit h-fit gap-1 max-w-full ">
+        <div className="text-white w-fit h-fit gap-1 max-w-full shadow-sm shadow-white/50 rounded-md p-2">
           {/* 6 divs of keyboard */}
 
           {/* 1st line */}
@@ -719,6 +719,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div>doebsou</div>
           </div>
           {/* end */}
         </div>
