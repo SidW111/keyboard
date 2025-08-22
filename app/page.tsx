@@ -1,5 +1,19 @@
 import { CiBrightnessDown, CiBrightnessUp } from "react-icons/ci";
+import { IoSearch } from "react-icons/io5";
+import { TbMicrophone } from "react-icons/tb";
+import { IoMoonOutline } from "react-icons/io5";
+import { IoPlayBackOutline } from "react-icons/io5";
+import { IoPlayForwardOutline } from "react-icons/io5";
+import { IoPlaySkipForwardOutline } from "react-icons/io5";
+import { GoMute } from "react-icons/go";
+import { IoVolumeLowOutline } from "react-icons/io5";
+import { IoVolumeHighOutline } from "react-icons/io5";
 import { MdKeyboardOptionKey } from "react-icons/md";
+import { MdOutlineWindow } from "react-icons/md";
+import { TbBrightnessUp } from "react-icons/tb";
+import { TbBrightnessUpFilled } from "react-icons/tb";
+
+
 import { CiGlobe } from "react-icons/ci";
 import { MdOutlineKeyboardControlKey } from "react-icons/md";
 import { MdOutlineKeyboardCommandKey } from "react-icons/md";
@@ -32,7 +46,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <TbBrightnessUp size={17} className="" />
                   <span>F1</span>
                 </div>
               </div>
@@ -40,7 +54,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <TbBrightnessUpFilled size={17} className="" />
                   <span>F2</span>
                 </div>
               </div>
@@ -48,7 +62,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <MdOutlineWindow size={17} className="" />
                   <span>F3</span>
                 </div>
               </div>
@@ -56,7 +70,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoSearch size={17} className="" />
                   <span>F4</span>
                 </div>
               </div>
@@ -64,7 +78,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <TbMicrophone size={17} className="" />
                   <span>F5</span>
                 </div>
               </div>
@@ -72,7 +86,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoMoonOutline size={17} className="" />
                   <span>F6</span>
                 </div>
               </div>
@@ -80,7 +94,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoPlayBackOutline size={17} className="" />
                   <span>F7</span>
                 </div>
               </div>
@@ -88,7 +102,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoPlaySkipForwardOutline size={17} className="" />
                   <span>F8</span>
                 </div>
               </div>
@@ -96,7 +110,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoPlayForwardOutline size={17} className="" />
                   <span>F9</span>
                 </div>
               </div>
@@ -104,7 +118,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <GoMute size={17} className="" />
                   <span>F10</span>
                 </div>
               </div>
@@ -112,7 +126,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoVolumeLowOutline size={17} className="" />
                   <span>F11</span>
                 </div>
               </div>
@@ -120,7 +134,7 @@ export default function Home() {
             <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
               <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
                 <div className="flex flex-col items-center gap-1.5 justify-center text-[10px] font-medium text-center">
-                  <CiBrightnessUp size={17} className="" />
+                  <IoVolumeHighOutline size={17} className="" />
                   <span>F12</span>
                 </div>
               </div>
