@@ -1,4 +1,8 @@
 import { CiBrightnessDown, CiBrightnessUp } from "react-icons/ci";
+import { MdKeyboardOptionKey } from "react-icons/md";
+import { CiGlobe } from "react-icons/ci";
+import { MdOutlineKeyboardControlKey } from "react-icons/md";
+import { MdOutlineKeyboardCommandKey } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -405,9 +409,318 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          {/* 4th line */}
+          <div className="flex mb-2 gap-1 justify-center items-center">
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all  duration-200">
+              <div className="flex justify-start items-end rounded-md bg-black h-16 w-32 pb-2 pl-3">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  caps lock
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>A</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>S</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>D</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>F</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>G</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>H</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>J</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>K</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>L</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center justify-center text-[14px] font-medium text-center">
+                  <span className="text-sm">
+                    <h1>:</h1>
+                  </span>
+                  <span className="text-sm">
+                    <h1>;</h1>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center justify-center text-[14px] font-medium text-center">
+                  <span className="text-sm">
+                    <h1>"</h1>
+                  </span>
+                  <span className="text-sm">
+                    <h1>'</h1>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all  duration-200">
+              <div className="flex justify-end items-end rounded-md bg-black h-16 w-32 pb-2 pr-3">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  return
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* 5th line */}
+          <div className="flex mb-2 gap-1 justify-center items-center">
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all  duration-200">
+              <div className="flex justify-start items-end rounded-md bg-black h-16 w-40.5 pb-2 pl-3">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  shift
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>Z</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>X</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>C</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>V</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>B</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>N</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-95 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  <span>M</span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center justify-center text-[14px] font-medium text-center">
+                  <span className="text-sm">
+                    <h1>&lt;</h1>
+                  </span>
+                  <span className="text-sm">
+                    <h1>,</h1>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center justify-center text-[14px] font-medium text-center">
+                  <span className="text-sm">
+                    <h1>&gt;</h1>
+                  </span>
+                  <span className="text-sm">
+                    <h1>.</h1>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex justify-center items-center rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col items-center justify-center text-[14px] font-medium text-center">
+                  <span className="text-sm">
+                    <h1>?</h1>
+                  </span>
+                  <span className="text-sm">
+                    <h1>/</h1>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all  duration-200">
+              <div className="flex justify-end items-end rounded-md bg-black h-16 w-40.5 pb-2 pr-3">
+                <div className="flex flex-col items-center gap-1 justify-center text-[14px] font-medium text-center">
+                  shift
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* 6th line */}
+          <div className="flex mb-2 gap-1 justify-center items-center">
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1.5">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <h1>fn</h1>
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1">
+                    <span className="text-sm">
+                      <CiGlobe size={21} />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <MdOutlineKeyboardControlKey size={20} />
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1.5">
+                    <span className="text-sm">
+                      <h1>control</h1>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <MdKeyboardOptionKey size={20} />
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1">
+                    <span className="text-sm">
+                      <h1>option</h1>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-20">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <MdOutlineKeyboardCommandKey size={20} />
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1">
+                    <span className="text-sm">
+                      <h1>command</h1>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-90">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1"></div>
+              </div>
+            </div>
+
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-20">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <MdOutlineKeyboardCommandKey size={20} />
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1">
+                    <span className="text-sm">
+                      <h1>command</h1>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="rounded-md bg-white/3 outline shadow-md p-[0.5px] hover:cursor-pointer hover:scale-96 hover:shadow-none shadow-white/50 transition-all duration-200">
+              <div className="flex rounded-md bg-black h-16 w-16">
+                <div className="flex flex-col w-full text-[14px] font-medium gap-2 pt-1.5 pr-1">
+                  <div className="flex justify-end items-end">
+                    <span className="text-sm ">
+                      <MdKeyboardOptionKey size={20} />
+                    </span>
+                  </div>
+                  <div className="flex justify-start items-end pl-1">
+                    <span className="text-sm">
+                      <h1>option</h1>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* end */}
         </div>
       </div>
     </div>
